@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 80px;
+    color: #fff;
+    text-shadow: 1px solid #000000;
+    background-color: #000000;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 40px;
+    padding: 0px;
+    font-size: 30px;
+    width: 240px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 24px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border-radius: 10px;
+      padding: 3px;
+      margin: 3px;
+      min-width: 40px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+      text-align: center;
+  }
+     
+  .input-area{
+      margin: 30px;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+  body {
+    background-image: url('fondo-1.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 601px) {
+
+}
+
+ 
+
